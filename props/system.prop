@@ -17,3 +17,6 @@ telephony.lteOnCdmaDevice=1
 
 # Blur
 ro.surface_flinger.supports_background_blur=1
+
+#surface_flinger
+ro.surface_flinger.support_kernel_idle_timer=true
