@@ -198,6 +198,14 @@ persist.vendor.radio.dynamic_sar=1
 persist.vendor.radio.enableadvancedscan=true
 persist.vendor.radio.procedure_bytes=SKIP
 persist.vendor.radio.sib16_support=1
+persist.vendor.radio.adb_log_on=0
+persist.vendor.radio.aplog_mask=0
+persist.vendor.radio.snapshot_enabled=0
+persist.vendor.radio.snapshot_timer=0
+persist.vendor.sys.modem.diag=0
+persist.vendor.ssr.enable_ramdumps=0
+persist.vendor.qcomsysd.enabled=false
+persist.vendor.perf.enable_logger=false
 ro.vendor.radio.build_profile=v-stable
 
 # RCS
