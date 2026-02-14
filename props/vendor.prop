@@ -220,6 +220,9 @@ ro.vendor.sensors.xiaomi.udfps=true
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
+# HWUI
+ro.hwui.render_ahead=3
+
 # USB
 sys.usb.mtp.batchcancel=1
 vendor.usb.diag.func.name=ffs
