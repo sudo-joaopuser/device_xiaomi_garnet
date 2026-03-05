@@ -128,27 +128,6 @@ BOARD_BOOTCONFIG := \
     androidboot.memcg=1 \
     androidboot.usbcontroller=a600000.dwc3
 
-# Kernel modules
-TARGET_KERNEL_EXT_MODULE_ROOT := kernel/xiaomi/sm7435-modules
-TARGET_KERNEL_EXT_MODULES := \
-	qcom/opensource/mmrm-driver \
-	qcom/opensource/audio-kernel \
-	qcom/opensource/camera-kernel \
-	qcom/opensource/cvp-kernel \
-	qcom/opensource/dataipa/drivers/platform/msm \
-	qcom/opensource/datarmnet/core \
-	qcom/opensource/datarmnet-ext/aps \
-	qcom/opensource/datarmnet-ext/offload \
-	qcom/opensource/datarmnet-ext/shs \
-	qcom/opensource/datarmnet-ext/perf \
-	qcom/opensource/datarmnet-ext/perf_tether \
-	qcom/opensource/datarmnet-ext/sch \
-	qcom/opensource/datarmnet-ext/wlan \
-	qcom/opensource/display-drivers/msm \
-	qcom/opensource/eva-kernel \
-	qcom/opensource/video-driver \
-	qcom/opensource/wlan/qcacld-3.0/.adrastea
-
 BOARD_VENDOR_KERNEL_MODULES_BLOCKLIST_FILE := $(DEVICE_PATH)/modules/dlkm/modules.blocklist
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules/dlkm/modules.load))
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_BLOCKLIST_FILE := $(DEVICE_PATH)/modules/ramdisk/modules.blocklist
