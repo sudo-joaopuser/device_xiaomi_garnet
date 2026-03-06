@@ -186,7 +186,7 @@ ro.vendor.extension_library=libqti-perfd-client.so
 sys.fflag.override.settings_enable_monitor_phantom_procs=false
 
 # Qcomd
-persist.vendor.qcomsysd.enabled=1
+persist.vendor.qcomsysd.enabled=false
 
 # Radio
 persist.dbg.volte_avail_ovr=1
@@ -205,7 +205,6 @@ persist.vendor.radio.snapshot_enabled=0
 persist.vendor.radio.snapshot_timer=0
 persist.vendor.sys.modem.diag=0
 persist.vendor.ssr.enable_ramdumps=0
-persist.vendor.qcomsysd.enabled=false
 persist.vendor.perf.enable_logger=false
 ro.vendor.radio.build_profile=v-stable
 
